@@ -7,7 +7,7 @@
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
     grid-auto-rows: 100px 1fr;
-    max-width: 1184px;
+    max-width: 1280px;
     min-height: 671px;
     padding: 0 48px 95px 48px;
     box-sizing: border-box;
