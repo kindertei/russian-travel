@@ -1,11 +1,14 @@
-.intro__title{
-    font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 54px;
-line-height: 1.07;
-/* identical to box height, or 107% */
-
-
-color: #FFFFFF;
+.intro__title {
+  max-width: 690px;
+  min-height: 58px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.07;
+  /* identical to box height, or 107% */
+  margin-top:0;
+  margin-bottom: 30px;
+  
+  color: #ffffff;
 }

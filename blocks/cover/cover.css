@@ -1,0 +1,47 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 92px;
+  background-image: url(../../images/cover__background.jpg);
+  background-size: 1184px 740px;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1184px;
+  min-height: 740px;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+  .cover {
+    max-width: 1024px;
+    min-height: 640px;
+    background-size: 1024px 640px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .cover {
+    padding-bottom: 88px;
+    max-width: 768px;
+    min-height: 480px;
+    background-size: 768px 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .cover {
+      
+    padding-bottom: 64px;
+    max-width: 320px;
+    min-height: 200px;
+    background-size: 320px 200px;
+  }
+}

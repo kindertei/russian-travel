@@ -1,0 +1,29 @@
+.footer {
+  margin: 0 auto 0 auto;
+  padding: 0px 48px 24px 48px;
+  /* padding-bottom: 24px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+  /* стили для планшета в альбомной ориентации */
+}
+@media screen and (max-width: 768px) {
+  /* стили для планшета */
+  .footer {
+    padding: 0px 48px 24px 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .footer{
+    flex-flow: column nowrap;
+    flex-direction: column;
+    padding: 0px 16px 0px 146px;
+  }
+}

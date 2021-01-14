@@ -1,11 +1,18 @@
-.place__paragraph{
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 1.63;
-/* or 29px */
+.place__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.63;
+  /* or 29px */
+  grid-column-start: 2;
 
+  color: #ffffff;
+}
 
-color: #FFFFFF;
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

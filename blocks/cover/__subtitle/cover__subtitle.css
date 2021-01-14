@@ -1,12 +1,27 @@
-.cover__subtitle{
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 1.22;
-/* or 122% */
+.cover__subtitle {
+  max-width: 360px;
+  min-height: 66px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  /* or 122% */
+  margin: 0;
+  z-index: 2;
+  text-align: center;
+  margin-top: 32px;
 
-text-align: center;
+  color: #ffffff;
+}
 
-color: #FFFFFF;
+@media screen and (max-width: 320px) {
+  /* стили для малого смартфона */
+  .cover_subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 16px;
+    max-width: 288px;
+    min-height: 48px;
+  }
 }

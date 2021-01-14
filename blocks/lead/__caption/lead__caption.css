@@ -1,13 +1,14 @@
-.lead__caption{
-    font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 1.4;
-/* identical to box height, or 140% */
+.lead__caption {
+  align-self: start;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  /* identical to box height, or 140% */
 
-letter-spacing: 0.15em;
-text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
