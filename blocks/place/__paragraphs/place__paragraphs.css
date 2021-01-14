@@ -1,6 +1,6 @@
-.place__website{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr;
-    gap:0;
-    }
+.place__website {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+}

@@ -1,31 +1,30 @@
-.lead{
-    margin: 0 auto 0 auto;
-    padding: 92px 148px;
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    max-width: 1184px;
+.lead {
+  margin: 0 auto 0 auto;
+  padding: 92px 148px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
 }
 
-
 @media screen and (max-width: 1024px) {
-    .lead{
+  .lead {
     /* стили для планшета в альбомной ориентации */
     padding-right: 48px;
     padding-left: 48px;
-    }
+  }
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
-    .lead{
+  /* стили для планшета */
+  .lead {
     padding: 88px 0;
-    }
+  }
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-    .lead{
-        padding: 64px 0;
-        }
-} 
+  /* стили для малого смартфона */
+  .lead {
+    padding: 64px 0;
+  }
+}

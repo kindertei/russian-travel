@@ -39,9 +39,9 @@
 @import url(../blocks/place/__website/__link/place__website__link.css);
 @import url(../blocks/place/__website/__url-heading/place__website__url-heading.css);
 
-.page{
-    background: #2A2C2F;
-    max-width: 1600px;
+.page {
+  background: #2a2c2f;
+  max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */

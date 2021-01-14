@@ -1,23 +1,22 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto 0 auto;
-    padding-top: 56px;
-    padding-bottom: 92px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+  padding-top: 56px;
+  padding-bottom: 92px;
 }
 
 @media screen and (min-width: 1280px) {
-   
 }
 
 @media screen and (max-width: 1024px) {
-    /* стили для планшета в альбомной ориентации */
+  /* стили для планшета в альбомной ориентации */
 }
 @media screen and (max-width: 768px) {
-    /* стили для планшета */
+  /* стили для планшета */
 }
 
 @media screen and (max-width: 320px) {
-    /* стили для малого смартфона */
-} 
+  /* стили для малого смартфона */
+}
