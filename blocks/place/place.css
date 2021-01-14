@@ -55,8 +55,6 @@ flex-direction: column; */
     max-width: 320px;
     min-height: 1042px;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr 3fr 3fr; */
-    gap: 32px;
     padding: 0px 16px 50px 16px;
   }
 }
