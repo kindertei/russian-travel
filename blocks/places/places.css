@@ -6,7 +6,6 @@
   padding-bottom: 92px;
 }
 
-
 @media screen and (max-width: 1024px) {
   /* стили для планшета в альбомной ориентации */
 }
@@ -17,6 +16,6 @@
 @media screen and (max-width: 320px) {
   /* стили для малого смартфона */
   .places {
-  padding-bottom: 66px;
+    padding-bottom: 66px;
   }
 }

@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 320px) {
   /* стили для малого смартфона */
-  .footer{
+  .footer {
     flex-flow: column nowrap;
     flex-direction: column;
     padding: 0px 16px 0px 146px;
