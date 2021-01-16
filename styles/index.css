@@ -2,7 +2,6 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -43,9 +42,24 @@
 
 .page {
   background: #2a2c2f;
+  max-width: 1280px;
+  padding: 28px 0;
+
 /*   max-width: 1600px; */
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: "Inter", Arial, sans-serif;
+}
+
+@media (max-width:1024px){
+  .page{
+    max-width:1024px;
+  }
+}
+
+@media (max-width:320px){
+  .page{
+    padding: 16px 0;
+  }
 }
