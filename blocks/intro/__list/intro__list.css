@@ -1,12 +1,12 @@
 .intro__list {
-  padding:0;
-  width: 690px;
-  /* min-height: 90px; */
-  font-family: Inter;
-  font-size: 12px;
-  line-height: 1.5;
-  /* or 150% */
-  margin: 0;
-  color: #ffffff;
-  list-style: none;
+    padding: 0;
+    width: 690px;
+    /* min-height: 90px; */
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 1.5;
+    /* or 150% */
+    margin: 0;
+    color: #ffffff;
+    list-style: none;
 }

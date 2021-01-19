@@ -1,50 +1,47 @@
 .photo-grid {
-  margin: 0 auto;
-  display: grid;
-  /* grid-template-columns: repeat(4, 284px);
+    margin: 0 auto;
+    display: grid;
+    /* grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 213px); */
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 16px;
-  grid-auto-rows: 100px 1fr;
-  max-width: 1280px;
-  min-height: 671px;
-  padding: 0 48px 95px 48px;
-  box-sizing: border-box;
-}
-
-@media screen and (min-width: 1280px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1280px;
+    /* min-height: 671px; */
+    padding: 0 48px 95px 48px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 14px;
-    max-width: 928px;
-    min-height: 942px;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
-  .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    max-width: 720px;
-    min-height: 1664px;
-    padding: 0 24px 88px 24px;
-  }
+    /* стили для планшета в альбомной ориентации */
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 14px;
+        /* max-width: 1024px; */
+        /* min-height: 942px; */
+    }
 }
 
-@media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-  .photo-grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(12, 1fr);
-    max-width: 288px;
-    min-height: 2724px;
-    gap: 12px;
-    padding: 0 16px 64px 16px;
-  }
+@media screen and (max-width: 768px) {
+    /* стили для планшета */
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        /* max-width: 768px; */
+        /* min-height: 1664px; */
+        padding: 0 24px 88px 24px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    /* стили для любого смартфона */
+    .photo-grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        /* max-width: 288px; */
+        /* min-height: 2724px; */
+        gap: 12px;
+        padding: 0 16px 64px 16px;
+    }
 }

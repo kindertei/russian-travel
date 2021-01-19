@@ -1,14 +1,27 @@
 .lead__caption {
-  align-self: start;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 10px;
-  line-height: 1.4;
-  /* identical to box height, or 140% */
+    align-self: start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.4;
+    padding-top: 8px;
+    padding-left: 0;
+    margin: 0;
+    /* identical to box height, or 140% */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
 
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+@media (max-width: 1024px) {
+    .lead__caption {
+        margin-right: auto;
+        margin-left: 24px;
+    }
+}
 
-  color: #ffffff;
+@media (max-width: 600px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
 }

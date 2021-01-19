@@ -1,14 +1,12 @@
 .intro__text {
-  max-width: 690px;
-  /* min-height: 208px; */
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.63;
-  /* or 26px */
-  margin-top: 0;
-  margin-bottom: 33px;
-
-  color: #ffffff;
+    max-width: 690px;
+    /* min-height: 208px; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.63;
+    /* or 26px */
+    margin-top: 0;
+    margin-bottom: 33px;
+    color: #ffffff;
 }

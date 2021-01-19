@@ -1,34 +1,32 @@
 .place__title {
-  max-width: 460px;
-  align-self: start;
-  margin: 0;
-  /* min-height: 152px; */
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  /* or 106% */
-  grid-row: 1;
-
-  color: #ffffff;
+    max-width: 460px;
+    align-self: flex-end;
+    margin: 0;
+    /* min-height: 152px; */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    /* or 106% */
+    grid-row: 1;
+    color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
-    /* width: 340px;
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        /* width: 340px;
     height: 92px; */
-  }
+    }
 }
 
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-    /* max-width: 288px;
+    /* стили для малого смартфона */
+    .place__title {
+        font-size: 32px;
+        line-height: 35px;
+        /* max-width: 288px;
     min-height: 35px; */
-  }
+    }
 }

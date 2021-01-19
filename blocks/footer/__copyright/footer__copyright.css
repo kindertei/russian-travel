@@ -1,14 +1,12 @@
 .footer__copyright {
-  width: 186px;
-  /* min-height: 16px; */
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.14;
-  /* identical to box height, or 114% */
-
-  text-align: right;
-
-  color: #ffffff;
+    margin: 0;
+    /* width: 186px; */
+    /* min-height: 16px; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.14;
+    /* identical to box height, or 114% */
+    text-align: right;
+    color: #ffffff;
 }

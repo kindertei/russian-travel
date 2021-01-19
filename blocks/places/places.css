@@ -1,21 +1,14 @@
 .places {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto 0 auto;
-  padding-top: 0px;
-  padding-bottom: 92px;
-}
-
-@media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
-}
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    padding-top: 0px;
+    padding-bottom: 92px;
 }
 
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-  .places {
-    padding-bottom: 66px;
-  }
+    /* стили для малого смартфона */
+    .places {
+        padding-bottom: 66px;
+    }
 }

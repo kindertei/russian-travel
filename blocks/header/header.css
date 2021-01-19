@@ -1,28 +1,18 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto 0 auto;
-  padding-top: 56px;
-  padding-bottom: 92px;
-  padding-left:50px;
-  padding-right:50px;
-}
-
-@media screen and (min-width: 1280px) {
-}
-
-@media screen and (max-width: 1024px) {
-  /* стили для планшета в альбомной ориентации */
-}
-@media screen and (max-width: 768px) {
-  /* стили для планшета */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto 0 auto;
+    padding-top: 56px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Inter", Arial, sans-serif;
 }
 
 @media screen and (max-width: 320px) {
-  /* стили для малого смартфона */
-  .header{
-    padding-left:16px;
-    padding-right:16px;
-  }  
+    /* стили для малого смартфона */
+    .header {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
