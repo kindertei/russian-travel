@@ -12,7 +12,6 @@
 @media screen and (max-width: 600px) {
     /* стили для малого смартфона */
     .header {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding: 0 16px;
     }
 }

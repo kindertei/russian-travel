@@ -21,7 +21,7 @@
 @media screen and (max-width: 1024px) {
     /* стили для планшета в альбомной ориентации */
     .place {
-        padding: 0px 48px 0px 48px;
+        padding: 0px 48px 80px 48px;
         gap: 48px 32px;
     }
 }
@@ -30,19 +30,19 @@
     /* стили для планшета */
     .place {
         gap: 48px 28px;
-        padding: 0px 24px 0px 24px;
+        padding: 0px 24px 80px 24px;
         /* max-width: 440px; */
         /* grid-template-columns: 440px 440px;
   grid-template-rows: 76px 440px; */
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     /* стили для малого смартфона */
     .place {
         gap: 32px;
         max-width: 320px;
         grid-template-columns: 1fr;
-        padding: 0px 16px 0px 16px;
+        padding: 0px 16px 50px 16px;
     }
 }

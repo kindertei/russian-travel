@@ -12,6 +12,14 @@
     color: #ffffff;
 }
 
+@media screen and (max-width: 600px) {
+    /* стили для малого смартфона */
+    .lead__title {
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}
+
 @media screen and (max-width: 600 px) {
     /* стили для любого смартфона */
     .lead__title {

@@ -13,8 +13,9 @@
     color: #ffffff;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .lead__caption {
+        width: auto;
         margin-right: auto;
         margin-left: 24px;
     }
