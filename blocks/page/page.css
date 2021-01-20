@@ -10,7 +10,7 @@
     font-family: "Inter", Arial, sans-serif;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
     .page {
         max-width: 1024px;
     }
@@ -19,7 +19,7 @@
 
 /* 321 - 713 */
 
-@media (max-width:713px) {
+@media (max-width: 713px) {
     .page {
         padding: 16px 0;
     }

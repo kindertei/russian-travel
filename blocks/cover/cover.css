@@ -6,7 +6,7 @@
     margin: 0 auto;
     padding-top: 0px;
     margin-bottom: 92px;
-    background: url(../../images/cover__background.jpg) no-repeat, rgba(42, 44, 47, .3);
+    background: url(../../images/cover__background.jpg) no-repeat, rgba(42, 44, 47, 0.3);
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -18,7 +18,7 @@
 }
 
 .cover:hover {
-    opacity: .8;
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 1280px) {
