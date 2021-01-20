@@ -16,7 +16,7 @@
 @media screen and (max-width: 600px) {
     /* стили для любого смартфона */
     .footer {
-        flex-flow: column nowrap;
+        /* flex-flow: column nowrap; */
         margin: 62px 16px 0 16px;
     }
 }
